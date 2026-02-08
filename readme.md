@@ -102,14 +102,14 @@ This project builds a **Machine Learning regression model** to estimate house pr
 
 ##  Project Structure
 
-house-price-prediction-ml/
+house-price-prediction-linear-regression/
 │
-├── app.py # Streamlit dashboard UI
-├── train_model.py # ML training script
-├── house_model.pkl # Saved model
-├── House_price_prediction.csv # Dataset
-├── requirements.txt # Dependencies
-└── README.md # Documentation
+├── app.py                        # Streamlit dashboard + ML model training
+├── House_price_prediction.csv    # Dataset
+├── requirements.txt              # Python dependencies
+├── README.md                     # Documentation
+└── train_model.py (optional)     # Separate training script (not required for deployment)
+
 
 
 ---
