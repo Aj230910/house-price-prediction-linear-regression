@@ -8,10 +8,7 @@ This project demonstrates the complete **ML lifecycle** from data preprocessing 
 
 ##  Live Demo
 
-🔗 Coming Soon (after deployment on Streamlit Cloud)
-
-Example:
-https://house-price-prediction-ml.streamlit.app
+https://smart-house-price-estimator.streamlit.app/
 
 ---
 
