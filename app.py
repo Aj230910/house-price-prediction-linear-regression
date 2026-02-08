@@ -5,8 +5,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+
 
 
 # ==========================================
@@ -23,8 +25,12 @@ st.set_page_config(
 # LOAD DATA + MODEL
 # ==========================================
 df = pd.read_csv("House_price_prediction.csv")
-model = joblib.load("house_model.pkl")
 
+X = df[['bedrooms','bathrooms','sqft_living']]
+y = df['price']
+
+model = LinearRegression()
+model.fit(X, y)
 
 # ==========================================
 # HEADER
