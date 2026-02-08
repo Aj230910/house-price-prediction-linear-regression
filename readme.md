@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction ML Dashboard
+#  House Price Prediction ML Dashboard
 
 An end-to-end Machine Learning web application that predicts house prices using **Linear Regression** and provides an **interactive dashboard UI** built with **Streamlit**.
 
@@ -6,7 +6,7 @@ This project demonstrates the complete **ML lifecycle** from data preprocessing 
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🔗 Coming Soon (after deployment on Streamlit Cloud)
 
@@ -15,7 +15,7 @@ https://house-price-prediction-ml.streamlit.app
 
 ---
 
-## 📌 Overview
+##  Overview
 
 House prices depend on multiple factors like:
 
@@ -30,7 +30,7 @@ This project builds a **Machine Learning regression model** to estimate house pr
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 ✅ Build an ML regression model  
 ✅ Train using housing dataset  
@@ -41,7 +41,7 @@ This project builds a **Machine Learning regression model** to estimate house pr
 
 ---
 
-## 🧠 Machine Learning Workflow (IPO Architecture)
+##  Machine Learning Workflow (IPO Architecture)
 
 ### 🔹 INPUT
 - CSV dataset
@@ -75,35 +75,35 @@ This project builds a **Machine Learning regression model** to estimate house pr
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🤖 Machine Learning
+###  Machine Learning
 - Linear Regression model
 - R² Score evaluation
 - MAE error metric
 - Model saved as .pkl
 
-### 🎨 Dashboard UI
+###  Dashboard UI
 - Manual input fields
 - Real-time predictions
 - KPI metrics
 - Clean layout
 - Interactive charts
 
-### 📊 Analytics
+###  Analytics
 - Price vs Area graph
 - Bedrooms vs Price graph
 - Price distribution histogram
 - Dataset preview
 
-### 🚀 Deployment
+###  Deployment
 - Runs locally
 - Cloud deploy ready
 - Shareable public link
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 house-price-prediction-ml/
 │
@@ -117,7 +117,7 @@ house-price-prediction-ml/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains real-world housing features:
 
@@ -148,7 +148,7 @@ Target:
 
 ---
 
-## 🧮 Model Details
+##  Model Details
 
 ### Algorithm
 Linear Regression
@@ -162,7 +162,7 @@ b₀ + b₁(area) + b₂(bedrooms) + b₃(bathrooms) + ...
 - R² Score
 - MAE (Mean Absolute Error)
 
-## 🧪 Example Usage
+##  Example Usage
 
 ### Input
 
@@ -175,7 +175,7 @@ Area: 1500 sqft
 Estimated Price: ₹ 4,50,000
 
 
-## 👨‍💻 Author
+##  Author
 
 Ambrish Jeyan T
 Data Science & Machine Learning Enthusiast  
